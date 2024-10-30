@@ -26,7 +26,7 @@ Our team leveraged data mining techniques to **preprocess, model, and analyze** 
 | Name |
 |------|
 | **Aaron Chee Thian Shin (U2102810)** |
-| **[Member 2 Name]** | 
+| **Muhammad Muqri Qawiem bin Hanizam (U2000726)** | 
 | **[Member 3 Name]** | 
 | **[Member 4 Name]** |
 | **[Member 5 Name]** |
