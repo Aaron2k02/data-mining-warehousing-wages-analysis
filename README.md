@@ -26,8 +26,8 @@ Our team leveraged data mining techniques to **preprocess, model, and analyze** 
 | Name |
 |------|
 | **Aaron Chee Thian Shin (U2102810)** |
-| **Muhammad Muqri Qawiem bin Hanizam (U2000726)** | 
-| **[Member 3 Name]** | 
+| **Muhammad Muqri Qawiem bin Hanizam (U2000726)** |
+| **TAN CHUN HONG (U2102812)** |
 | **[Member 4 Name]** |
 | **[Member 5 Name]** |
 
@@ -79,6 +79,6 @@ This project offers insights into how **education, skills, and wage expectations
 
 Happy analyzing! 🎉
 
---- 
+---
 
 Feel free to adjust team members’ names and the repository link, and add more details to personalize it! -->
