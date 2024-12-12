@@ -9,6 +9,7 @@ ydata_profiling
 ### EDA
 dtale
 plotly
+nbformat
 
 
 
