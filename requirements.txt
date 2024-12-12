@@ -2,4 +2,14 @@ pandas
 numpy 
 seaborn
 ipykernel
--e .
+
+# data profiling
+ydata_profiling
+
+### EDA
+dtale
+plotly
+
+
+
+# -e .
