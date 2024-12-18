@@ -1,0 +1,16 @@
+pandas
+numpy 
+seaborn
+ipykernel
+
+# data profiling
+ydata_profiling
+
+### EDA
+dtale
+plotly
+nbformat
+mlxtend
+
+
+# -e .
