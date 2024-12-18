@@ -10,7 +10,7 @@ ydata_profiling
 dtale
 plotly
 nbformat
-
+mlxtend
 
 
 # -e .
