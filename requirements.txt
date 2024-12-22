@@ -11,6 +11,9 @@ dtale
 plotly
 nbformat
 mlxtend
+kmodes
 
+#DB Scan
+scikit-learn
 
 # -e .
