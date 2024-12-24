@@ -16,4 +16,9 @@ kmodes
 #DB Scan
 scikit-learn
 
+# Feature engineering 
+featuretools
+Dask 
+featuretools[dask]
+imblearn
 # -e .
