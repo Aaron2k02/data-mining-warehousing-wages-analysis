@@ -21,4 +21,8 @@ featuretools
 Dask 
 featuretools[dask]
 imblearn
+
+# Dimensionality reduction
+scikit-learn
+umap-learn
 # -e .
