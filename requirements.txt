@@ -25,4 +25,14 @@ imblearn
 # Dimensionality reduction
 scikit-learn
 umap-learn
+
+# Automated ML 
+requests
+tabulate
+future
+matplotlib
+# pip uninstall h2o
+-f http://h2o-release.s3.amazonaws.com/h2o/latest_stable_Py.html h2o
+# pip install -f http://h2o-release.s3.amazonaws.com/h2o/latest_stable_Py.html h2o
+
 # -e .
