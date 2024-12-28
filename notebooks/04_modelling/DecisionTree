@@ -1,0 +1,33 @@
+digraph Tree {
+node [shape=box, style="filled, rounded", color="black", fontname="helvetica"] ;
+edge [fontname="helvetica"] ;
+0 [label=<job_title_Product/Project_Manager &le; 0.049<br/>gini = 0.948<br/>samples = 5459<br/>value = [572, 225, 367, 345, 230, 238, 209, 167, 243, 67<br/>219, 32, 120, 342, 29, 125, 330, 228, 316, 262<br/>176, 237, 190, 163, 27]>, fillcolor="#fefaf7"] ;
+1 [label=<ml_spending &le; 1.256<br/>gini = 0.922<br/>samples = 3662<br/>value = [569, 225, 11, 345, 230, 5, 209, 166, 3, 66, 3<br/>32, 120, 1, 29, 124, 330, 1, 316, 262, 0, 237<br/>190, 163, 25]>, fillcolor="#fdf6f2"] ;
+0 -> 1 [labeldistance=2.5, labelangle=45, headlabel="True"] ;
+2 [label=<job_title_Data_Engineer &le; -0.162<br/>gini = 0.92<br/>samples = 2626<br/>value = [121, 84, 8, 325, 217, 2, 205, 70, 1, 64, 2, 32<br/>45, 1, 29, 45, 291, 0, 279, 239, 0, 219, 175<br/>151, 21]>, fillcolor="#fefffc"] ;
+1 -> 2 ;
+3 [label=<gini = 0.833<br/>samples = 1122<br/>value = [5, 5, 8, 303, 171, 1, 78, 0, 0, 10, 0, 10, 0<br/>0, 7, 0, 235, 0, 139, 80, 0, 41, 19, 6, 4]>, fillcolor="#fbfdf0"] ;
+2 -> 3 ;
+4 [label=<gini = 0.922<br/>samples = 1504<br/>value = [116, 79, 0, 22, 46, 1, 127, 70, 1, 54, 2, 22<br/>45, 1, 22, 45, 56, 0, 140, 159, 0, 178, 156, 145<br/>17]>, fillcolor="#fffcfe"] ;
+2 -> 4 ;
+5 [label=<job_title_Data_Engineer &le; 0.405<br/>gini = 0.77<br/>samples = 1036<br/>value = [448, 141, 3, 20, 13, 3, 4, 96, 2, 2, 1, 0, 75<br/>0, 0, 79, 39, 1, 37, 23, 0, 18, 15, 12, 4]>, fillcolor="#f6d4bb"] ;
+1 -> 5 ;
+6 [label=<gini = 0.623<br/>samples = 704<br/>value = [411, 119, 3, 20, 13, 3, 4, 14, 2, 2, 1, 0, 1<br/>0, 0, 0, 38, 0, 32, 17, 0, 9, 7, 5, 3]>, fillcolor="#f2c09c"] ;
+5 -> 6 ;
+7 [label=<gini = 0.814<br/>samples = 332<br/>value = [37, 22, 0, 0, 0, 0, 0, 82, 0, 0, 0, 0, 74, 0<br/>0, 79, 1, 1, 5, 6, 0, 9, 8, 7, 1]>, fillcolor="#fdfffd"] ;
+5 -> 7 ;
+8 [label=<job_title_Data_Engineer &le; -0.389<br/>gini = 0.85<br/>samples = 1797<br/>value = [3, 0, 356, 0, 0, 233, 0, 1, 240, 1, 216, 0, 0<br/>341, 0, 1, 0, 227, 0, 0, 176, 0, 0, 0, 2]>, fillcolor="#fffffd"] ;
+0 -> 8 [labeldistance=2.5, labelangle=-45, headlabel="False"] ;
+9 [label=<job_title_Data_Engineer &le; -0.866<br/>gini = 0.604<br/>samples = 594<br/>value = [0, 0, 325, 0, 0, 168, 0, 0, 74, 0, 21, 0, 0<br/>6, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]>, fillcolor="#f5eeb6"] ;
+8 -> 9 ;
+10 [label=<gini = 0.128<br/>samples = 205<br/>value = [0, 0, 191, 0, 0, 13, 0, 0, 1, 0, 0, 0, 0, 0<br/>0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]>, fillcolor="#e7d447"] ;
+9 -> 10 ;
+11 [label=<gini = 0.684<br/>samples = 389<br/>value = [0, 0, 134, 0, 0, 155, 0, 0, 73, 0, 21, 0, 0<br/>6, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]>, fillcolor="#f4fdef"] ;
+9 -> 11 ;
+12 [label=<job_title_Data_Engineer &le; -0.052<br/>gini = 0.817<br/>samples = 1203<br/>value = [3, 0, 31, 0, 0, 65, 0, 1, 166, 1, 195, 0, 0<br/>335, 0, 1, 0, 227, 0, 0, 176, 0, 0, 0, 2]>, fillcolor="#e9f2fc"] ;
+8 -> 12 ;
+13 [label=<gini = 0.759<br/>samples = 322<br/>value = [0, 0, 21, 0, 0, 48, 0, 0, 101, 0, 104, 0, 0<br/>31, 0, 0, 0, 17, 0, 0, 0, 0, 0, 0, 0]>, fillcolor="#fcfffe"] ;
+12 -> 13 ;
+14 [label=<gini = 0.768<br/>samples = 881<br/>value = [3, 0, 10, 0, 0, 17, 0, 1, 65, 1, 91, 0, 0<br/>304, 0, 1, 0, 210, 0, 0, 176, 0, 0, 0, 2]>, fillcolor="#e3eefb"] ;
+12 -> 14 ;
+}
