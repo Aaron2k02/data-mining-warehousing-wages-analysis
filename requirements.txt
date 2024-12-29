@@ -43,6 +43,9 @@ lightgbm
 xgboost
 catboost
 
+# hyper parameter optimization
+optuna
+
 # Conda activate venv/
 # pip install -r requirements.txt
 # -e .
