@@ -2,6 +2,8 @@ import numpy as np
 import pandas as pd
 from sklearn.model_selection import RandomizedSearchCV, StratifiedKFold
 from sklearn.metrics import accuracy_score, precision_score, recall_score
+from sklearn.exceptions import ConvergenceWarning
+import warnings
 
 def run_classifier(clf, param_grid, X_train, y_train, X_test, y_test, title, n_splits=5, n_iter_search=10, random_state=123):
     """
@@ -20,6 +22,10 @@ def run_classifier(clf, param_grid, X_train, y_train, X_test, y_test, title, n_s
     Returns:
     - best_estimator: Best classifier after tuning.
     """
+    # Ignore warnings from MLP convergence issues
+    warnings.filterwarnings("ignore", category=UserWarning)
+    warnings.simplefilter("ignore", category=ConvergenceWarning)
+    
     # -----------------------------------------------------
     # Cross-Validation Setup
     cv = StratifiedKFold(n_splits=n_splits, shuffle=True, random_state=random_state)
@@ -37,6 +43,9 @@ def run_classifier(clf, param_grid, X_train, y_train, X_test, y_test, title, n_s
     # -----------------------------------------------------
     # Perform Cross-Validation and Hyperparameter Tuning
     gs.fit(X_train, y_train)
+    
+    print(f"\n--- RandomizedSearchCV ({title}) ---")
+    print(gs)
 
     print(f"\n--- Cross-Validation Results ({title}) ---")
     print("The best parameters are:", gs.best_params_)
