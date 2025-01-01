@@ -46,9 +46,13 @@ catboost
 # hyper parameter optimization
 optuna
 
-
 polars 
 pyarrow
+
+# model assesssmnet
+shap 
+lime 
+eli5 
 
 # Conda activate venv/
 # pip install -r requirements.txt
