@@ -55,6 +55,10 @@ lime
 eli5 
 fairlearn
 
+# model deployment
+streamlit
+gdown
+
 # Conda activate venv/
 # pip install -r requirements.txt
 # -e .
