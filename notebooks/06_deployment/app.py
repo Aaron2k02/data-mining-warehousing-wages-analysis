@@ -18,7 +18,8 @@ def download_file_from_google_drive(file_id, output_path):
 
 # Download the model file
 model_file_id = "1EEZ490OTSDsnovwb2NJTW1_XlnRyD35X"
-model_path = "DeepLearning_model_python_1735461052018_31"
+# model_path = "DeepLearning_model_python_1735461052018_31"
+model_path = "./DeepLearning_model_python_1735461052018_31"
 
 # Debugging: Check if the model file exists
 if os.path.exists(model_path):
