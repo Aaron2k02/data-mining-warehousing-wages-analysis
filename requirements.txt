@@ -53,6 +53,7 @@ pyarrow
 shap 
 lime 
 eli5 
+fairlearn
 
 # Conda activate venv/
 # pip install -r requirements.txt
