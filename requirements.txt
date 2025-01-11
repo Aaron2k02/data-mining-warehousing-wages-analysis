@@ -1,59 +1,59 @@
-pandas
-numpy 
-seaborn
-ipykernel
+# pandas
+# numpy 
+# seaborn
+# ipykernel
 
-# data profiling
-ydata_profiling
+# # data profiling
+# ydata_profiling
 
-### EDA
-dtale
-plotly
-nbformat
-mlxtend
-kmodes
+# ### EDA
+# dtale
+# plotly
+# nbformat
+# mlxtend
+# kmodes
 
-#DB Scan
-scikit-learn
+# #DB Scan
+# scikit-learn
 
-# Feature engineering 
-featuretools
-Dask 
-featuretools[dask]
-imblearn
+# # Feature engineering 
+# featuretools
+# Dask 
+# featuretools[dask]
+# imblearn
 
-# Dimensionality reduction
-scikit-learn
-umap-learn
+# # Dimensionality reduction
+# scikit-learn
+# umap-learn
 
-# Automated ML 
-requests
-tabulate
-future
-# pip uninstall h2o
--f http://h2o-release.s3.amazonaws.com/h2o/latest_stable_Py.html h2o
-# pip install -f http://h2o-release.s3.amazonaws.com/h2o/latest_stable_Py.html h2o
-tensorflow
+# # Automated ML 
+# requests
+# tabulate
+# future
+# # pip uninstall h2o
+# -f http://h2o-release.s3.amazonaws.com/h2o/latest_stable_Py.html h2o
+# # pip install -f http://h2o-release.s3.amazonaws.com/h2o/latest_stable_Py.html h2o
+# tensorflow
 
-matplotlib
-graphviz
+# matplotlib
+# graphviz
 
-# # Manual Modelling
-lightgbm
-xgboost
-catboost
+# # # Manual Modelling
+# lightgbm
+# xgboost
+# catboost
 
-# # hyper parameter optimization
-optuna
+# # # hyper parameter optimization
+# optuna
 
-polars 
-pyarrow
+# polars 
+# pyarrow
 
-# # model assesssmnet
-shap 
-lime 
-eli5 
-fairlearn
+# # # model assesssmnet
+# shap 
+# lime 
+# eli5 
+# fairlearn
 
 # # model deployment
 streamlit
@@ -63,6 +63,7 @@ numpy
 plotly
 scikit-learn
 gdown
+# default-jre
 # Conda activate venv/
 # pip install -r requirements.txt
 # -e .
